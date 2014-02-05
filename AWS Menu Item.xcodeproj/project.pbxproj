@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C86DC0B18A289AD005D9981 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86DC0A18A289AD005D9981 /* Cocoa.framework */; };
+		3C86DC1518A289AD005D9981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC1318A289AD005D9981 /* InfoPlist.strings */; };
+		3C86DC1718A289AD005D9981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC1618A289AD005D9981 /* main.m */; };
+		3C86DC1B18A289AD005D9981 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC1918A289AD005D9981 /* Credits.rtf */; };
+		3C86DC1E18A289AD005D9981 /* SWAWSMIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC1D18A289AD005D9981 /* SWAWSMIAppDelegate.m */; };
+		3C86DC2118A289AD005D9981 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC1F18A289AD005D9981 /* MainMenu.xib */; };
+		3C86DC2418A289AD005D9981 /* AWS_Menu_Item.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC2218A289AD005D9981 /* AWS_Menu_Item.xcdatamodeld */; };
+		3C86DC2618A289AD005D9981 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC2518A289AD005D9981 /* Images.xcassets */; };
+		3C86DC2D18A289AD005D9981 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86DC2C18A289AD005D9981 /* XCTest.framework */; };
+		3C86DC2E18A289AD005D9981 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86DC0A18A289AD005D9981 /* Cocoa.framework */; };
+		3C86DC3618A289AD005D9981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC3418A289AD005D9981 /* InfoPlist.strings */; };
+		3C86DC3818A289AD005D9981 /* AWS_Menu_ItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC3718A289AD005D9981 /* AWS_Menu_ItemTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C86DC2F18A289AD005D9981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C86DBFF18A289AD005D9981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C86DC0618A289AD005D9981;
+			remoteInfo = "AWS Menu Item";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C86DC0718A289AD005D9981 /* AWS Menu Item.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AWS Menu Item.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C86DC0A18A289AD005D9981 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3C86DC0D18A289AD005D9981 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3C86DC0E18A289AD005D9981 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3C86DC0F18A289AD005D9981 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C86DC1218A289AD005D9981 /* AWS Menu Item-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AWS Menu Item-Info.plist"; sourceTree = "<group>"; };
+		3C86DC1418A289AD005D9981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C86DC1618A289AD005D9981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C86DC1818A289AD005D9981 /* AWS Menu Item-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWS Menu Item-Prefix.pch"; sourceTree = "<group>"; };
+		3C86DC1A18A289AD005D9981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3C86DC1C18A289AD005D9981 /* SWAWSMIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAWSMIAppDelegate.h; sourceTree = "<group>"; };
+		3C86DC1D18A289AD005D9981 /* SWAWSMIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAWSMIAppDelegate.m; sourceTree = "<group>"; };
+		3C86DC2018A289AD005D9981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3C86DC2318A289AD005D9981 /* AWS_Menu_Item.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AWS_Menu_Item.xcdatamodel; sourceTree = "<group>"; };
+		3C86DC2518A289AD005D9981 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C86DC2B18A289AD005D9981 /* AWS Menu ItemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AWS Menu ItemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C86DC2C18A289AD005D9981 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3C86DC3318A289AD005D9981 /* AWS Menu ItemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AWS Menu ItemTests-Info.plist"; sourceTree = "<group>"; };
+		3C86DC3518A289AD005D9981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C86DC3718A289AD005D9981 /* AWS_Menu_ItemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWS_Menu_ItemTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C86DC0418A289AD005D9981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C86DC0B18A289AD005D9981 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C86DC2818A289AD005D9981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C86DC2E18A289AD005D9981 /* Cocoa.framework in Frameworks */,
+				3C86DC2D18A289AD005D9981 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C86DBFE18A289AD005D9981 = {
+			isa = PBXGroup;
+			children = (
+				3C86DC1018A289AD005D9981 /* AWS Menu Item */,
+				3C86DC3118A289AD005D9981 /* AWS Menu ItemTests */,
+				3C86DC0918A289AD005D9981 /* Frameworks */,
+				3C86DC0818A289AD005D9981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C86DC0818A289AD005D9981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC0718A289AD005D9981 /* AWS Menu Item.app */,
+				3C86DC2B18A289AD005D9981 /* AWS Menu ItemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C86DC0918A289AD005D9981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC0A18A289AD005D9981 /* Cocoa.framework */,
+				3C86DC2C18A289AD005D9981 /* XCTest.framework */,
+				3C86DC0C18A289AD005D9981 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C86DC0C18A289AD005D9981 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC0D18A289AD005D9981 /* AppKit.framework */,
+				3C86DC0E18A289AD005D9981 /* CoreData.framework */,
+				3C86DC0F18A289AD005D9981 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3C86DC1018A289AD005D9981 /* AWS Menu Item */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC1C18A289AD005D9981 /* SWAWSMIAppDelegate.h */,
+				3C86DC1D18A289AD005D9981 /* SWAWSMIAppDelegate.m */,
+				3C86DC1F18A289AD005D9981 /* MainMenu.xib */,
+				3C86DC2518A289AD005D9981 /* Images.xcassets */,
+				3C86DC2218A289AD005D9981 /* AWS_Menu_Item.xcdatamodeld */,
+				3C86DC1118A289AD005D9981 /* Supporting Files */,
+			);
+			path = "AWS Menu Item";
+			sourceTree = "<group>";
+		};
+		3C86DC1118A289AD005D9981 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC1218A289AD005D9981 /* AWS Menu Item-Info.plist */,
+				3C86DC1318A289AD005D9981 /* InfoPlist.strings */,
+				3C86DC1618A289AD005D9981 /* main.m */,
+				3C86DC1818A289AD005D9981 /* AWS Menu Item-Prefix.pch */,
+				3C86DC1918A289AD005D9981 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C86DC3118A289AD005D9981 /* AWS Menu ItemTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC3718A289AD005D9981 /* AWS_Menu_ItemTests.m */,
+				3C86DC3218A289AD005D9981 /* Supporting Files */,
+			);
+			path = "AWS Menu ItemTests";
+			sourceTree = "<group>";
+		};
+		3C86DC3218A289AD005D9981 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC3318A289AD005D9981 /* AWS Menu ItemTests-Info.plist */,
+				3C86DC3418A289AD005D9981 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C86DC0618A289AD005D9981 /* AWS Menu Item */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C86DC3B18A289AD005D9981 /* Build configuration list for PBXNativeTarget "AWS Menu Item" */;
+			buildPhases = (
+				3C86DC0318A289AD005D9981 /* Sources */,
+				3C86DC0418A289AD005D9981 /* Frameworks */,
+				3C86DC0518A289AD005D9981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AWS Menu Item";
+			productName = "AWS Menu Item";
+			productReference = 3C86DC0718A289AD005D9981 /* AWS Menu Item.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C86DC2A18A289AD005D9981 /* AWS Menu ItemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C86DC3E18A289AD005D9981 /* Build configuration list for PBXNativeTarget "AWS Menu ItemTests" */;
+			buildPhases = (
+				3C86DC2718A289AD005D9981 /* Sources */,
+				3C86DC2818A289AD005D9981 /* Frameworks */,
+				3C86DC2918A289AD005D9981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C86DC3018A289AD005D9981 /* PBXTargetDependency */,
+			);
+			name = "AWS Menu ItemTests";
+			productName = "AWS Menu ItemTests";
+			productReference = 3C86DC2B18A289AD005D9981 /* AWS Menu ItemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C86DBFF18A289AD005D9981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SWAWSMI;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SISU Works LLC";
+				TargetAttributes = {
+					3C86DC2A18A289AD005D9981 = {
+						TestTargetID = 3C86DC0618A289AD005D9981;
+					};
+				};
+			};
+			buildConfigurationList = 3C86DC0218A289AD005D9981 /* Build configuration list for PBXProject "AWS Menu Item" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C86DBFE18A289AD005D9981;
+			productRefGroup = 3C86DC0818A289AD005D9981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C86DC0618A289AD005D9981 /* AWS Menu Item */,
+				3C86DC2A18A289AD005D9981 /* AWS Menu ItemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C86DC0518A289AD005D9981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C86DC1518A289AD005D9981 /* InfoPlist.strings in Resources */,
+				3C86DC2618A289AD005D9981 /* Images.xcassets in Resources */,
+				3C86DC1B18A289AD005D9981 /* Credits.rtf in Resources */,
+				3C86DC2118A289AD005D9981 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C86DC2918A289AD005D9981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C86DC3618A289AD005D9981 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C86DC0318A289AD005D9981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C86DC2418A289AD005D9981 /* AWS_Menu_Item.xcdatamodeld in Sources */,
+				3C86DC1E18A289AD005D9981 /* SWAWSMIAppDelegate.m in Sources */,
+				3C86DC1718A289AD005D9981 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C86DC2718A289AD005D9981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C86DC3818A289AD005D9981 /* AWS_Menu_ItemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C86DC3018A289AD005D9981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C86DC0618A289AD005D9981 /* AWS Menu Item */;
+			targetProxy = 3C86DC2F18A289AD005D9981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C86DC1318A289AD005D9981 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C86DC1418A289AD005D9981 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C86DC1918A289AD005D9981 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C86DC1A18A289AD005D9981 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3C86DC1F18A289AD005D9981 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C86DC2018A289AD005D9981 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3C86DC3418A289AD005D9981 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C86DC3518A289AD005D9981 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C86DC3918A289AD005D9981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3C86DC3A18A289AD005D9981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3C86DC3C18A289AD005D9981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWS Menu Item/AWS Menu Item-Prefix.pch";
+				INFOPLIST_FILE = "AWS Menu Item/AWS Menu Item-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C86DC3D18A289AD005D9981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWS Menu Item/AWS Menu Item-Prefix.pch";
+				INFOPLIST_FILE = "AWS Menu Item/AWS Menu Item-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3C86DC3F18A289AD005D9981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AWS Menu Item.app/Contents/MacOS/AWS Menu Item";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWS Menu Item/AWS Menu Item-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AWS Menu ItemTests/AWS Menu ItemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3C86DC4018A289AD005D9981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AWS Menu Item.app/Contents/MacOS/AWS Menu Item";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWS Menu Item/AWS Menu Item-Prefix.pch";
+				INFOPLIST_FILE = "AWS Menu ItemTests/AWS Menu ItemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C86DC0218A289AD005D9981 /* Build configuration list for PBXProject "AWS Menu Item" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C86DC3918A289AD005D9981 /* Debug */,
+				3C86DC3A18A289AD005D9981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C86DC3B18A289AD005D9981 /* Build configuration list for PBXNativeTarget "AWS Menu Item" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C86DC3C18A289AD005D9981 /* Debug */,
+				3C86DC3D18A289AD005D9981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C86DC3E18A289AD005D9981 /* Build configuration list for PBXNativeTarget "AWS Menu ItemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C86DC3F18A289AD005D9981 /* Debug */,
+				3C86DC4018A289AD005D9981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C86DC2218A289AD005D9981 /* AWS_Menu_Item.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C86DC2318A289AD005D9981 /* AWS_Menu_Item.xcdatamodel */,
+			);
+			currentVersion = 3C86DC2318A289AD005D9981 /* AWS_Menu_Item.xcdatamodel */;
+			path = AWS_Menu_Item.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C86DBFF18A289AD005D9981 /* Project object */;
+}
