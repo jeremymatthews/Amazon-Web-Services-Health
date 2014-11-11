@@ -8,15 +8,40 @@
 
 #import "SWAWSMIAppDelegate.h"
 
+#import <QuartzCore/QuartzCore.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <ServiceManagement/ServiceManagement.h>
+
+#import "AXStatusItemPopup.h"
+#import "ContentViewController.h"
+
+@interface SWAWSMIAppDelegate ()
+{
+    AXStatusItemPopup *_statusItemPopup;
+}
+@property (nonatomic) ContentViewController *contentViewController;
+@end
+
 @implementation SWAWSMIAppDelegate
 
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize managedObjectContext = _managedObjectContext;
 
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    _contentViewController = [[ContentViewController alloc] initWithNibName:@"ContentViewController" bundle:nil];
+    // init the status item popup
+    NSImage *image = [NSImage imageNamed:@"cloud"];
+    NSImage *alternateImage = [NSImage imageNamed:@"cloudgrey"];
+    
+    _statusItemPopup = [[AXStatusItemPopup alloc] initWithViewController:_contentViewController image:image alternateImage:alternateImage];
+    
+    [_contentViewController addObserver:self forKeyPath:@"imageWhat" options:(NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld) context:NULL];
+    
+    [[_contentViewController view] setWantsLayer:YES];
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "com.sisuworks.AWS_Menu_Item" in the user's Application Support directory.
