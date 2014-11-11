@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C29FE4F18AC6DA60046C871 /* LaunchAtLoginHelperApp.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C29FE4B18AC6D060046C871 /* LaunchAtLoginHelperApp.app */; };
 		3C86DC0B18A289AD005D9981 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86DC0A18A289AD005D9981 /* Cocoa.framework */; };
 		3C86DC1518A289AD005D9981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC1318A289AD005D9981 /* InfoPlist.strings */; };
 		3C86DC1718A289AD005D9981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC1618A289AD005D9981 /* main.m */; };
@@ -19,9 +20,80 @@
 		3C86DC2E18A289AD005D9981 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86DC0A18A289AD005D9981 /* Cocoa.framework */; };
 		3C86DC3618A289AD005D9981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC3418A289AD005D9981 /* InfoPlist.strings */; };
 		3C86DC3818A289AD005D9981 /* AWS_Menu_ItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC3718A289AD005D9981 /* AWS_Menu_ItemTests.m */; };
+		3C86DC4818A28B66005D9981 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC4618A28B66005D9981 /* ContentViewController.m */; };
+		3C86DC4918A28B66005D9981 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC4618A28B66005D9981 /* ContentViewController.m */; };
+		3C86DC4A18A28B66005D9981 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC4718A28B66005D9981 /* ContentViewController.xib */; };
+		3C86DC4B18A28B66005D9981 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC4718A28B66005D9981 /* ContentViewController.xib */; };
+		3C86DC4F18A28B82005D9981 /* AXStatusItemPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC4E18A28B82005D9981 /* AXStatusItemPopup.m */; };
+		3C86DC5018A28B82005D9981 /* AXStatusItemPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC4E18A28B82005D9981 /* AXStatusItemPopup.m */; };
+		3C86DC5318A28B98005D9981 /* StartAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC5218A28B98005D9981 /* StartAtLoginController.m */; };
+		3C86DC5418A28B98005D9981 /* StartAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC5218A28B98005D9981 /* StartAtLoginController.m */; };
+		3C86DC5918A28C48005D9981 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86DC5818A28C48005D9981 /* ServiceManagement.framework */; };
+		3C86DC5B18A28C4C005D9981 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86DC5A18A28C4C005D9981 /* CoreGraphics.framework */; };
+		3C86DC5D18A28C52005D9981 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86DC5C18A28C52005D9981 /* QuartzCore.framework */; };
+		3C86DC6218A28C75005D9981 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC5E18A28C75005D9981 /* cloud.png */; };
+		3C86DC6318A28C75005D9981 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC5E18A28C75005D9981 /* cloud.png */; };
+		3C86DC6418A28C75005D9981 /* cloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC5F18A28C75005D9981 /* cloud@2x.png */; };
+		3C86DC6518A28C75005D9981 /* cloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC5F18A28C75005D9981 /* cloud@2x.png */; };
+		3C86DC6618A28C75005D9981 /* cloudgrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC6018A28C75005D9981 /* cloudgrey.png */; };
+		3C86DC6718A28C75005D9981 /* cloudgrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC6018A28C75005D9981 /* cloudgrey.png */; };
+		3C86DC6818A28C75005D9981 /* cloudgrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC6118A28C75005D9981 /* cloudgrey@2x.png */; };
+		3C86DC6918A28C75005D9981 /* cloudgrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC6118A28C75005D9981 /* cloudgrey@2x.png */; };
+		3C86DC7D18A2A7D2005D9981 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC6B18A2A7D2005D9981 /* AFHTTPRequestOperation.m */; };
+		3C86DC7E18A2A7D2005D9981 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC6D18A2A7D2005D9981 /* AFHTTPRequestOperationManager.m */; };
+		3C86DC7F18A2A7D2005D9981 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC6F18A2A7D2005D9981 /* AFHTTPSessionManager.m */; };
+		3C86DC8018A2A7D2005D9981 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC7218A2A7D2005D9981 /* AFNetworkReachabilityManager.m */; };
+		3C86DC8118A2A7D2005D9981 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC7418A2A7D2005D9981 /* AFSecurityPolicy.m */; };
+		3C86DC8218A2A7D2005D9981 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC7618A2A7D2005D9981 /* AFURLConnectionOperation.m */; };
+		3C86DC8318A2A7D2005D9981 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC7818A2A7D2005D9981 /* AFURLRequestSerialization.m */; };
+		3C86DC8418A2A7D2005D9981 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC7A18A2A7D2005D9981 /* AFURLResponseSerialization.m */; };
+		3C86DC8518A2A7D2005D9981 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC7C18A2A7D2005D9981 /* AFURLSessionManager.m */; };
+		3C86DC8818A2A8BA005D9981 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86DC8718A2A8BA005D9981 /* Security.framework */; };
+		3C86DC8A18A2A8D8005D9981 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86DC8918A2A8D8005D9981 /* SystemConfiguration.framework */; };
+		3C86DC8C18A2A993005D9981 /* agt_action_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC8B18A2A993005D9981 /* agt_action_success.png */; };
+		3C86DC8E18A2A9DA005D9981 /* messagebox_warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC8D18A2A9DA005D9981 /* messagebox_warning.png */; };
+		3C86DC9018A2A9F4005D9981 /* agt_action_fail.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC8F18A2A9F4005D9981 /* agt_action_fail.png */; };
+		3C86DC9218A2AA15005D9981 /* agt_aisles.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC9118A2AA15005D9981 /* agt_aisles.png */; };
+		3C86DC9418A2AA1E005D9981 /* agt_update_recommended.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC9318A2AA1E005D9981 /* agt_update_recommended.png */; };
+		3C86DC9718A2AABA005D9981 /* SSYPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DC9618A2AABA005D9981 /* SSYPieProgressView.m */; };
+		3C86DC9B18A335D7005D9981 /* cloudred@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC9918A335D7005D9981 /* cloudred@2x.png */; };
+		3C86DC9C18A335D7005D9981 /* cloudyellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC9A18A335D7005D9981 /* cloudyellow@2x.png */; };
+		3C86DC9E18A46F88005D9981 /* Advanced Preferences.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DC9D18A46F88005D9981 /* Advanced Preferences.tiff */; };
+		3C86DCB018A90A53005D9981 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86DCAF18A90A53005D9981 /* libxml2.2.dylib */; };
+		3C86DCB318A91F43005D9981 /* SWAWSMIMainPageScrape.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DCB218A91F43005D9981 /* SWAWSMIMainPageScrape.m */; };
+		3C86DCB418A91F43005D9981 /* SWAWSMIMainPageScrape.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DCB218A91F43005D9981 /* SWAWSMIMainPageScrape.m */; };
+		3C86DCBC18A9222E005D9981 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DCB718A9222E005D9981 /* TFHpple.m */; };
+		3C86DCBD18A9222E005D9981 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DCB718A9222E005D9981 /* TFHpple.m */; };
+		3C86DCBE18A9222E005D9981 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DCB918A9222E005D9981 /* TFHppleElement.m */; };
+		3C86DCBF18A9222E005D9981 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DCB918A9222E005D9981 /* TFHppleElement.m */; };
+		3C86DCC018A9222E005D9981 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DCBB18A9222E005D9981 /* XPathQuery.m */; };
+		3C86DCC118A9222E005D9981 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86DCBB18A9222E005D9981 /* XPathQuery.m */; };
+		3C86DCC418AC1972005D9981 /* cloudgreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DCC318AC1972005D9981 /* cloudgreen@2x.png */; };
+		3C86DCC518AC1972005D9981 /* cloudgreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86DCC318AC1972005D9981 /* cloudgreen@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3C29FE4A18AC6D060046C871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C29FE4518AC6D050046C871 /* LaunchAtLoginHelperApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C29FE0E18AC6D050046C871;
+			remoteInfo = LaunchAtLoginHelperApp;
+		};
+		3C29FE4C18AC6D060046C871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C29FE4518AC6D050046C871 /* LaunchAtLoginHelperApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C29FE2F18AC6D050046C871;
+			remoteInfo = LaunchAtLoginHelperAppTests;
+		};
+		3C29FE7218AE7C550046C871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C29FE6E18AE7C550046C871 /* AWS SS Plugin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C29FE5918AE7C420046C871;
+			remoteInfo = "AWS SS Plugin";
+		};
 		3C86DC2F18A289AD005D9981 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3C86DBFF18A289AD005D9981 /* Project object */;
@@ -31,7 +103,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3C29FE4E18AC6D750046C871 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				3C29FE4F18AC6DA60046C871 /* LaunchAtLoginHelperApp.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3C29FE4518AC6D050046C871 /* LaunchAtLoginHelperApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LaunchAtLoginHelperApp.xcodeproj; path = LaunchAtLoginHelperApp/LaunchAtLoginHelperApp.xcodeproj; sourceTree = "<group>"; };
+		3C29FE6E18AE7C550046C871 /* AWS SS Plugin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AWS SS Plugin.xcodeproj"; path = "../AWS SS Plugin/AWS SS Plugin.xcodeproj"; sourceTree = "<group>"; };
 		3C86DC0718A289AD005D9981 /* AWS Menu Item.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AWS Menu Item.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C86DC0A18A289AD005D9981 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		3C86DC0D18A289AD005D9981 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -52,6 +139,61 @@
 		3C86DC3318A289AD005D9981 /* AWS Menu ItemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AWS Menu ItemTests-Info.plist"; sourceTree = "<group>"; };
 		3C86DC3518A289AD005D9981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C86DC3718A289AD005D9981 /* AWS_Menu_ItemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWS_Menu_ItemTests.m; sourceTree = "<group>"; };
+		3C86DC4518A28B66005D9981 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		3C86DC4618A28B66005D9981 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		3C86DC4718A28B66005D9981 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		3C86DC4D18A28B82005D9981 /* AXStatusItemPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXStatusItemPopup.h; sourceTree = "<group>"; };
+		3C86DC4E18A28B82005D9981 /* AXStatusItemPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXStatusItemPopup.m; sourceTree = "<group>"; };
+		3C86DC5118A28B98005D9981 /* StartAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartAtLoginController.h; sourceTree = "<group>"; };
+		3C86DC5218A28B98005D9981 /* StartAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartAtLoginController.m; sourceTree = "<group>"; };
+		3C86DC5818A28C48005D9981 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		3C86DC5A18A28C4C005D9981 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C86DC5C18A28C52005D9981 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3C86DC5E18A28C75005D9981 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud.png; path = ../../../MenuItemTest/MenuItemTest/cloud.png; sourceTree = "<group>"; };
+		3C86DC5F18A28C75005D9981 /* cloud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cloud@2x.png"; path = "../../../MenuItemTest/MenuItemTest/cloud@2x.png"; sourceTree = "<group>"; };
+		3C86DC6018A28C75005D9981 /* cloudgrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloudgrey.png; path = ../../../MenuItemTest/MenuItemTest/cloudgrey.png; sourceTree = "<group>"; };
+		3C86DC6118A28C75005D9981 /* cloudgrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cloudgrey@2x.png"; path = "../../../MenuItemTest/MenuItemTest/cloudgrey@2x.png"; sourceTree = "<group>"; };
+		3C86DC6A18A2A7D2005D9981 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		3C86DC6B18A2A7D2005D9981 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		3C86DC6C18A2A7D2005D9981 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		3C86DC6D18A2A7D2005D9981 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		3C86DC6E18A2A7D2005D9981 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		3C86DC6F18A2A7D2005D9981 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		3C86DC7018A2A7D2005D9981 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		3C86DC7118A2A7D2005D9981 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		3C86DC7218A2A7D2005D9981 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		3C86DC7318A2A7D2005D9981 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		3C86DC7418A2A7D2005D9981 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		3C86DC7518A2A7D2005D9981 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		3C86DC7618A2A7D2005D9981 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		3C86DC7718A2A7D2005D9981 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		3C86DC7818A2A7D2005D9981 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		3C86DC7918A2A7D2005D9981 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		3C86DC7A18A2A7D2005D9981 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		3C86DC7B18A2A7D2005D9981 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		3C86DC7C18A2A7D2005D9981 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		3C86DC8718A2A8BA005D9981 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3C86DC8918A2A8D8005D9981 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3C86DC8B18A2A993005D9981 /* agt_action_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agt_action_success.png; sourceTree = "<group>"; };
+		3C86DC8D18A2A9DA005D9981 /* messagebox_warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messagebox_warning.png; sourceTree = "<group>"; };
+		3C86DC8F18A2A9F4005D9981 /* agt_action_fail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agt_action_fail.png; sourceTree = "<group>"; };
+		3C86DC9118A2AA15005D9981 /* agt_aisles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agt_aisles.png; sourceTree = "<group>"; };
+		3C86DC9318A2AA1E005D9981 /* agt_update_recommended.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agt_update_recommended.png; sourceTree = "<group>"; };
+		3C86DC9518A2AABA005D9981 /* SSYPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSYPieProgressView.h; sourceTree = "<group>"; };
+		3C86DC9618A2AABA005D9981 /* SSYPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSYPieProgressView.m; sourceTree = "<group>"; };
+		3C86DC9918A335D7005D9981 /* cloudred@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloudred@2x.png"; sourceTree = "<group>"; };
+		3C86DC9A18A335D7005D9981 /* cloudyellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloudyellow@2x.png"; sourceTree = "<group>"; };
+		3C86DC9D18A46F88005D9981 /* Advanced Preferences.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Advanced Preferences.tiff"; sourceTree = "<group>"; };
+		3C86DCAF18A90A53005D9981 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		3C86DCB118A91F43005D9981 /* SWAWSMIMainPageScrape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWAWSMIMainPageScrape.h; sourceTree = "<group>"; };
+		3C86DCB218A91F43005D9981 /* SWAWSMIMainPageScrape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWAWSMIMainPageScrape.m; sourceTree = "<group>"; };
+		3C86DCB618A9222E005D9981 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		3C86DCB718A9222E005D9981 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		3C86DCB818A9222E005D9981 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		3C86DCB918A9222E005D9981 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		3C86DCBA18A9222E005D9981 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		3C86DCBB18A9222E005D9981 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		3C86DCC318AC1972005D9981 /* cloudgreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloudgreen@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +201,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C86DCB018A90A53005D9981 /* libxml2.2.dylib in Frameworks */,
+				3C86DC8A18A2A8D8005D9981 /* SystemConfiguration.framework in Frameworks */,
+				3C86DC8818A2A8BA005D9981 /* Security.framework in Frameworks */,
+				3C86DC5D18A28C52005D9981 /* QuartzCore.framework in Frameworks */,
+				3C86DC5B18A28C4C005D9981 /* CoreGraphics.framework in Frameworks */,
+				3C86DC5918A28C48005D9981 /* ServiceManagement.framework in Frameworks */,
 				3C86DC0B18A289AD005D9981 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,13 +223,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C29FE4618AC6D050046C871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C29FE4B18AC6D060046C871 /* LaunchAtLoginHelperApp.app */,
+				3C29FE4D18AC6D060046C871 /* LaunchAtLoginHelperAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C29FE6F18AE7C550046C871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C29FE7318AE7C550046C871 /* AWS SS Plugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3C86DBFE18A289AD005D9981 = {
 			isa = PBXGroup;
 			children = (
-				3C86DC1018A289AD005D9981 /* AWS Menu Item */,
-				3C86DC3118A289AD005D9981 /* AWS Menu ItemTests */,
-				3C86DC0918A289AD005D9981 /* Frameworks */,
+				3C29FE6E18AE7C550046C871 /* AWS SS Plugin.xcodeproj */,
 				3C86DC0818A289AD005D9981 /* Products */,
+				3C86DC0918A289AD005D9981 /* Frameworks */,
+				3C86DC3118A289AD005D9981 /* AWS Menu ItemTests */,
+				3C86DC1018A289AD005D9981 /* AWS Menu Item */,
+				3C29FE4518AC6D050046C871 /* LaunchAtLoginHelperApp.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +264,12 @@
 		3C86DC0918A289AD005D9981 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C86DCAF18A90A53005D9981 /* libxml2.2.dylib */,
+				3C86DC8918A2A8D8005D9981 /* SystemConfiguration.framework */,
+				3C86DC8718A2A8BA005D9981 /* Security.framework */,
+				3C86DC5C18A28C52005D9981 /* QuartzCore.framework */,
+				3C86DC5A18A28C4C005D9981 /* CoreGraphics.framework */,
+				3C86DC5818A28C48005D9981 /* ServiceManagement.framework */,
 				3C86DC0A18A289AD005D9981 /* Cocoa.framework */,
 				3C86DC2C18A289AD005D9981 /* XCTest.framework */,
 				3C86DC0C18A289AD005D9981 /* Other Frameworks */,
@@ -117,8 +290,11 @@
 		3C86DC1018A289AD005D9981 /* AWS Menu Item */ = {
 			isa = PBXGroup;
 			children = (
-				3C86DC1C18A289AD005D9981 /* SWAWSMIAppDelegate.h */,
-				3C86DC1D18A289AD005D9981 /* SWAWSMIAppDelegate.m */,
+				3C86DC5718A28BB1005D9981 /* Vendor */,
+				3C86DCA718A58C06005D9981 /* AppDelegate */,
+				3C86DC4C18A28B6A005D9981 /* CVC */,
+				3C86DCB518A91F47005D9981 /* Page Scrape */,
+				3C86DCA618A58BDD005D9981 /* PRefs */,
 				3C86DC1F18A289AD005D9981 /* MainMenu.xib */,
 				3C86DC2518A289AD005D9981 /* Images.xcassets */,
 				3C86DC2218A289AD005D9981 /* AWS_Menu_Item.xcdatamodeld */,
@@ -130,6 +306,19 @@
 		3C86DC1118A289AD005D9981 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3C86DCC318AC1972005D9981 /* cloudgreen@2x.png */,
+				3C86DC9D18A46F88005D9981 /* Advanced Preferences.tiff */,
+				3C86DC5E18A28C75005D9981 /* cloud.png */,
+				3C86DC5F18A28C75005D9981 /* cloud@2x.png */,
+				3C86DC6018A28C75005D9981 /* cloudgrey.png */,
+				3C86DC6118A28C75005D9981 /* cloudgrey@2x.png */,
+				3C86DC9918A335D7005D9981 /* cloudred@2x.png */,
+				3C86DC9A18A335D7005D9981 /* cloudyellow@2x.png */,
+				3C86DC9318A2AA1E005D9981 /* agt_update_recommended.png */,
+				3C86DC9118A2AA15005D9981 /* agt_aisles.png */,
+				3C86DC8F18A2A9F4005D9981 /* agt_action_fail.png */,
+				3C86DC8D18A2A9DA005D9981 /* messagebox_warning.png */,
+				3C86DC8B18A2A993005D9981 /* agt_action_success.png */,
 				3C86DC1218A289AD005D9981 /* AWS Menu Item-Info.plist */,
 				3C86DC1318A289AD005D9981 /* InfoPlist.strings */,
 				3C86DC1618A289AD005D9981 /* main.m */,
@@ -157,6 +346,119 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3C86DC4C18A28B6A005D9981 /* CVC */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC4518A28B66005D9981 /* ContentViewController.h */,
+				3C86DC4618A28B66005D9981 /* ContentViewController.m */,
+				3C86DC4718A28B66005D9981 /* ContentViewController.xib */,
+			);
+			name = CVC;
+			sourceTree = "<group>";
+		};
+		3C86DC5518A28B9D005D9981 /* LoginStart */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC5118A28B98005D9981 /* StartAtLoginController.h */,
+				3C86DC5218A28B98005D9981 /* StartAtLoginController.m */,
+			);
+			name = LoginStart;
+			sourceTree = "<group>";
+		};
+		3C86DC5618A28BA6005D9981 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC4D18A28B82005D9981 /* AXStatusItemPopup.h */,
+				3C86DC4E18A28B82005D9981 /* AXStatusItemPopup.m */,
+			);
+			name = Popover;
+			sourceTree = "<group>";
+		};
+		3C86DC5718A28BB1005D9981 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DCC218A92238005D9981 /* hpple */,
+				3C86DC9818A2AB1B005D9981 /* Pie Progress */,
+				3C86DC8618A2A7D5005D9981 /* AFNetworking */,
+				3C86DC5518A28B9D005D9981 /* LoginStart */,
+				3C86DC5618A28BA6005D9981 /* Popover */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		3C86DC8618A2A7D5005D9981 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC6A18A2A7D2005D9981 /* AFHTTPRequestOperation.h */,
+				3C86DC6B18A2A7D2005D9981 /* AFHTTPRequestOperation.m */,
+				3C86DC6C18A2A7D2005D9981 /* AFHTTPRequestOperationManager.h */,
+				3C86DC6D18A2A7D2005D9981 /* AFHTTPRequestOperationManager.m */,
+				3C86DC6E18A2A7D2005D9981 /* AFHTTPSessionManager.h */,
+				3C86DC6F18A2A7D2005D9981 /* AFHTTPSessionManager.m */,
+				3C86DC7018A2A7D2005D9981 /* AFNetworking.h */,
+				3C86DC7118A2A7D2005D9981 /* AFNetworkReachabilityManager.h */,
+				3C86DC7218A2A7D2005D9981 /* AFNetworkReachabilityManager.m */,
+				3C86DC7318A2A7D2005D9981 /* AFSecurityPolicy.h */,
+				3C86DC7418A2A7D2005D9981 /* AFSecurityPolicy.m */,
+				3C86DC7518A2A7D2005D9981 /* AFURLConnectionOperation.h */,
+				3C86DC7618A2A7D2005D9981 /* AFURLConnectionOperation.m */,
+				3C86DC7718A2A7D2005D9981 /* AFURLRequestSerialization.h */,
+				3C86DC7818A2A7D2005D9981 /* AFURLRequestSerialization.m */,
+				3C86DC7918A2A7D2005D9981 /* AFURLResponseSerialization.h */,
+				3C86DC7A18A2A7D2005D9981 /* AFURLResponseSerialization.m */,
+				3C86DC7B18A2A7D2005D9981 /* AFURLSessionManager.h */,
+				3C86DC7C18A2A7D2005D9981 /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		3C86DC9818A2AB1B005D9981 /* Pie Progress */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC9518A2AABA005D9981 /* SSYPieProgressView.h */,
+				3C86DC9618A2AABA005D9981 /* SSYPieProgressView.m */,
+			);
+			name = "Pie Progress";
+			sourceTree = "<group>";
+		};
+		3C86DCA618A58BDD005D9981 /* PRefs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PRefs;
+			sourceTree = "<group>";
+		};
+		3C86DCA718A58C06005D9981 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DC1C18A289AD005D9981 /* SWAWSMIAppDelegate.h */,
+				3C86DC1D18A289AD005D9981 /* SWAWSMIAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3C86DCB518A91F47005D9981 /* Page Scrape */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DCB118A91F43005D9981 /* SWAWSMIMainPageScrape.h */,
+				3C86DCB218A91F43005D9981 /* SWAWSMIMainPageScrape.m */,
+			);
+			name = "Page Scrape";
+			sourceTree = "<group>";
+		};
+		3C86DCC218A92238005D9981 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				3C86DCB618A9222E005D9981 /* TFHpple.h */,
+				3C86DCB718A9222E005D9981 /* TFHpple.m */,
+				3C86DCB818A9222E005D9981 /* TFHppleElement.h */,
+				3C86DCB918A9222E005D9981 /* TFHppleElement.m */,
+				3C86DCBA18A9222E005D9981 /* XPathQuery.h */,
+				3C86DCBB18A9222E005D9981 /* XPathQuery.m */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +469,7 @@
 				3C86DC0318A289AD005D9981 /* Sources */,
 				3C86DC0418A289AD005D9981 /* Frameworks */,
 				3C86DC0518A289AD005D9981 /* Resources */,
+				3C29FE4E18AC6D750046C871 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -221,6 +524,16 @@
 			mainGroup = 3C86DBFE18A289AD005D9981;
 			productRefGroup = 3C86DC0818A289AD005D9981 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3C29FE6F18AE7C550046C871 /* Products */;
+					ProjectRef = 3C29FE6E18AE7C550046C871 /* AWS SS Plugin.xcodeproj */;
+				},
+				{
+					ProductGroup = 3C29FE4618AC6D050046C871 /* Products */;
+					ProjectRef = 3C29FE4518AC6D050046C871 /* LaunchAtLoginHelperApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3C86DC0618A289AD005D9981 /* AWS Menu Item */,
@@ -229,15 +542,53 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		3C29FE4B18AC6D060046C871 /* LaunchAtLoginHelperApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LaunchAtLoginHelperApp.app;
+			remoteRef = 3C29FE4A18AC6D060046C871 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3C29FE4D18AC6D060046C871 /* LaunchAtLoginHelperAppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LaunchAtLoginHelperAppTests.xctest;
+			remoteRef = 3C29FE4C18AC6D060046C871 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3C29FE7318AE7C550046C871 /* AWS SS Plugin.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AWS SS Plugin.bundle";
+			remoteRef = 3C29FE7218AE7C550046C871 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		3C86DC0518A289AD005D9981 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C86DC4A18A28B66005D9981 /* ContentViewController.xib in Resources */,
 				3C86DC1518A289AD005D9981 /* InfoPlist.strings in Resources */,
+				3C86DC9C18A335D7005D9981 /* cloudyellow@2x.png in Resources */,
+				3C86DC6818A28C75005D9981 /* cloudgrey@2x.png in Resources */,
 				3C86DC2618A289AD005D9981 /* Images.xcassets in Resources */,
+				3C86DC6218A28C75005D9981 /* cloud.png in Resources */,
+				3C86DCC418AC1972005D9981 /* cloudgreen@2x.png in Resources */,
+				3C86DC6418A28C75005D9981 /* cloud@2x.png in Resources */,
+				3C86DC9218A2AA15005D9981 /* agt_aisles.png in Resources */,
+				3C86DC8E18A2A9DA005D9981 /* messagebox_warning.png in Resources */,
 				3C86DC1B18A289AD005D9981 /* Credits.rtf in Resources */,
+				3C86DC6618A28C75005D9981 /* cloudgrey.png in Resources */,
+				3C86DC8C18A2A993005D9981 /* agt_action_success.png in Resources */,
+				3C86DC9018A2A9F4005D9981 /* agt_action_fail.png in Resources */,
+				3C86DC9E18A46F88005D9981 /* Advanced Preferences.tiff in Resources */,
+				3C86DC9B18A335D7005D9981 /* cloudred@2x.png in Resources */,
 				3C86DC2118A289AD005D9981 /* MainMenu.xib in Resources */,
+				3C86DC9418A2AA1E005D9981 /* agt_update_recommended.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +596,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C86DC6518A28C75005D9981 /* cloud@2x.png in Resources */,
+				3C86DCC518AC1972005D9981 /* cloudgreen@2x.png in Resources */,
+				3C86DC6718A28C75005D9981 /* cloudgrey.png in Resources */,
+				3C86DC6318A28C75005D9981 /* cloud.png in Resources */,
+				3C86DC4B18A28B66005D9981 /* ContentViewController.xib in Resources */,
 				3C86DC3618A289AD005D9981 /* InfoPlist.strings in Resources */,
+				3C86DC6918A28C75005D9981 /* cloudgrey@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +613,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C86DCBE18A9222E005D9981 /* TFHppleElement.m in Sources */,
+				3C86DC8518A2A7D2005D9981 /* AFURLSessionManager.m in Sources */,
+				3C86DCC018A9222E005D9981 /* XPathQuery.m in Sources */,
+				3C86DC4818A28B66005D9981 /* ContentViewController.m in Sources */,
 				3C86DC2418A289AD005D9981 /* AWS_Menu_Item.xcdatamodeld in Sources */,
+				3C86DC8018A2A7D2005D9981 /* AFNetworkReachabilityManager.m in Sources */,
+				3C86DC4F18A28B82005D9981 /* AXStatusItemPopup.m in Sources */,
+				3C86DC8218A2A7D2005D9981 /* AFURLConnectionOperation.m in Sources */,
+				3C86DC7F18A2A7D2005D9981 /* AFHTTPSessionManager.m in Sources */,
+				3C86DC8318A2A7D2005D9981 /* AFURLRequestSerialization.m in Sources */,
 				3C86DC1E18A289AD005D9981 /* SWAWSMIAppDelegate.m in Sources */,
 				3C86DC1718A289AD005D9981 /* main.m in Sources */,
+				3C86DC5318A28B98005D9981 /* StartAtLoginController.m in Sources */,
+				3C86DC7E18A2A7D2005D9981 /* AFHTTPRequestOperationManager.m in Sources */,
+				3C86DC9718A2AABA005D9981 /* SSYPieProgressView.m in Sources */,
+				3C86DCBC18A9222E005D9981 /* TFHpple.m in Sources */,
+				3C86DC8118A2A7D2005D9981 /* AFSecurityPolicy.m in Sources */,
+				3C86DCB318A91F43005D9981 /* SWAWSMIMainPageScrape.m in Sources */,
+				3C86DC8418A2A7D2005D9981 /* AFURLResponseSerialization.m in Sources */,
+				3C86DC7D18A2A7D2005D9981 /* AFHTTPRequestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +640,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C86DC4918A28B66005D9981 /* ContentViewController.m in Sources */,
+				3C86DCBF18A9222E005D9981 /* TFHppleElement.m in Sources */,
+				3C86DCC118A9222E005D9981 /* XPathQuery.m in Sources */,
+				3C86DCBD18A9222E005D9981 /* TFHpple.m in Sources */,
+				3C86DCB418A91F43005D9981 /* SWAWSMIMainPageScrape.m in Sources */,
+				3C86DC5018A28B82005D9981 /* AXStatusItemPopup.m in Sources */,
 				3C86DC3818A289AD005D9981 /* AWS_Menu_ItemTests.m in Sources */,
+				3C86DC5418A28B98005D9981 /* StartAtLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +772,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AWS Menu Item/AWS Menu Item-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "AWS Menu Item/AWS Menu Item-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -404,6 +790,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AWS Menu Item/AWS Menu Item-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "AWS Menu Item/AWS Menu Item-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -469,6 +860,7 @@
 				3C86DC3D18A289AD005D9981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C86DC3E18A289AD005D9981 /* Build configuration list for PBXNativeTarget "AWS Menu ItemTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +869,7 @@
 				3C86DC4018A289AD005D9981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
